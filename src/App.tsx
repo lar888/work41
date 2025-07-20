@@ -5,7 +5,7 @@ import MessageComponent from "./components/MessageComponent";
 import { fetchMessage } from "./utils/api";
 
 const App = () => {
-	return (
+  return (
 		<div style={{ textAlign: 'center', fontSize: '24px', marginTop: '40px' }}>
 			<AppErrorBoundary>
 				<Suspense fallback={<Loading />}>
